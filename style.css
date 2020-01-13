@@ -1,0 +1,118 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* //CABEÇALHO// */
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.cabecalho{
+    /* margin: 0; */
+    color: white;
+    text-align: center;
+    background-color: #48C5CE;
+    margin: 0;
+}
+
+img{
+    max-width: 1000px;
+}
+
+/* //MEIO DO SITE// */
+
+section {
+    margin-top: 0;
+    color: black;
+    padding: 20px;
+    background-image: url(./Assets/Img/images/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+p{
+    font-size: 17px;
+    
+}
+
+
+.foraContainer{
+    max-width: 250px;
+    background-color: rgb(230, 230, 255, 0.8);
+    padding: 20px;
+    /* position: absolute; */
+    float: right;
+
+}
+
+
+select, input{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 5px;
+
+}
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(./Assets/Img/images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+
+}
+
+/* //RODADE// */
+
+footer{
+    background-color: rgb(13, 13, 13);
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 35px;
+
+}
+
+.meioRodape{
+    max-width: 40%;
+    color: white;
+    align-content: center;
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+
+.pic{
+    width: 150px;
+ }
+
+#inscrit{
+    color: white;
+    background-color: #48C5CE;
+    font-weight: bold;
+
+}
+
+
+
+
+.meioRodape p{
+    text-align: justify;
+    font-size: 17px;
+}
+
+
+
+ 
+
+
